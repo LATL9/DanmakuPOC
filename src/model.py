@@ -27,7 +27,6 @@ class NNModel:
     def train(self):
         for j in range(FPS * TRAIN_TIME):
             screen = self.g.get_screen()
-            self.test(screen)
             self.g.Update(self.test(screen))
 
             if self.index == TEST_MODEL:
