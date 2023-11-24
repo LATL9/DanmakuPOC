@@ -1,7 +1,7 @@
 from common import *
 
 from game import *
-from model import *
+from nn_model import *
 
 from pyray import *
 import os
