@@ -4,6 +4,7 @@ from game import *
 from nn_model import *
 
 from pyray import *
+import torch.multiprocessing as mp
 import os
 import time
 
